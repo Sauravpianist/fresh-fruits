@@ -1,0 +1,19 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+ 
+
+ .main{ 
+ 	width: 100%;
+    background-image: url('photo.jpg'); 
+    background-position:center;
+     background-size: cover;
+    height: 100vh;
+}
+
+ 
+.content{
+    text-align: left;
+    color:black;
+}

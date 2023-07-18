@@ -1,0 +1,82 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.desc{
+    color: #fff;
+}
+.gallery{
+    text-align: center;
+}
+h5{
+    color:darkorange;
+    text-align: center;
+    padding-left: 15px;
+font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing:2px;
+    margin-top: 9%;
+    
+  }
+  p{
+    color: black;
+    text-align: center;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 200;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* fruits inline css */
+h5{
+    color:darkorange;
+    text-align: center;
+    padding-left: 15px;
+  font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing:2px;
+    margin-top: 9%;
+    
+  }
+  p{
+    color: black;
+    text-align: center;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 200;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }

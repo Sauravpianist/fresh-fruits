@@ -1,0 +1,16 @@
+.hoveref {
+    border: none;
+    color: #ff7200;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  font-size: 16px;
+}
+
+.hoveref:hover {
+    color: white;
+    background-color: #ff7200;
+}

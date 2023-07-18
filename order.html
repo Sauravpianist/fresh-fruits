@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title> Webpage Design </title>
+  <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit&family=Rubik+Marker+Hatch&family=Rubik:ital,wght@0,400;0,500;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/order.css">
+    <!-- <link rel="stylesheet" href="./css/fruit.css"> -->
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/foodmenu.css">
+    <title>Order</title>
+</head>
+
+<body>
+  <div class="main">
+    <div>
+      <nav class="navbar navcolor navbar-expand-lg" data-bs-theme="white">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="index.html" style="
+          color: #ff7200; font-family: 'Rubik', sans-serif;
+      ">Fresh Fruits</a> -->
+      <img src="./assets/fresh fruit logo.png" class="logo" alt="Fresh Fruits" srcset="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html" style="
+                color: #ff7200;font-family: 'Rubik', sans-serif;
+            ">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="fruit.html" style="
+                color: #ff7200; font-family: 'Rubik', sans-serif;
+            ">Fruits</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="order.html" style="
+                color: #ff7200;font-family: 'Rubik', sans-serif;
+            ">Order</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="menu.html" style="
+      color: #ff7200;font-family: 'Rubik', sans-serif;
+  ">Menu</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html" style="
+                color: #ff7200; font-family: 'Rubik', sans-serif;
+            ">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="signup.html" style="
+                color: #ff7200; font-family: 'Rubik', sans-serif;
+            ">SignUp</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <!-- form-control me-2 -->
+              <input id="search" class="form-control me-2" type="search" placeholder="Search" style="border-color: #ff7200;
+              " aria-label="Search">
+              <button class=" hoveref mx-2" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br>
+      <div class="content">
+        <h1><strong>Order Form </strong></h1>
+        <p><strong>Customers can make an order using this form or by phone.</strong></p>
+        <p><strong>Order Form </strong></p>
+        <form id="form1" name="form1" method="post" action="ramesh123@gmail.com">
+          <table border="0" width="430">
+            <tbody>
+              <tr>
+                <td width="225">Name</td>
+                <td width="183"><label for="textfield"></label>
+                  <input id="textfield" name="textfield" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td>Address</td>
+                <td><label for="textfield2"></label>
+                  <textarea id="textfield2" name="textfield2"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>Contact Number</td>
+                <td><label for="textfield3"></label>
+                  <input id="textfield3" name="textfield3" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td>E-mail ID </td>
+                <td><label for="textfield4"></label>
+                  <input id="textfield4" name="textfield4" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td>Types of events</td>
+                <td><label for="select"></label>
+                  <select id="select" size="1" name="select">
+                    <option>select events</option>
+                    <option>Worshiping the god</option>
+                    <option>Dashain and Tihar events</option>
+                    <option>Christmas</option>
+                    <option>Marrige &amp;Birthday</option>
+                    <option>Anniversary</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Name of the bouquet</td>
+                <td><label for="textfield5"></label>
+                  <input id="textfield5" name="textfield5" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td>Delivery date</td>
+                <td><label for="textfield6"></label>
+                  <input id="textfield6" name="textfield6" type="text" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <p><strong>Payment Details </strong></p>
+          <table border="0" width="400">
+            <tbody>
+              <tr>
+                <td width="242">Type of card </td>
+                <td width="144"><label for="textfield7"></label>
+                  <input id="textfield7" name="textfield7" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td width="242">Cardholders Name </td>
+                <td><label for="textfield8"></label>
+                  <input id="textfield8" name="textfield8" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td>Card number </td>
+                <td><label for="textfield9"></label>
+                  <input id="textfield9" name="textfield9" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td>Expiry date</td>
+                <td><label for="textfield10"></label>
+                  <input id="textfield10" name="textfield10" type="text" />
+                </td>
+              </tr>
+              <tr>
+                <td>Security code(the 3 digit numbers at back of your card)</td>
+                <td><label for="textfield2"></label>
+                  <input id="textfield2" name="textfield11" type="text" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            <input type="submit" name="button" id="button" value="Submit" />
+            <input type="reset" name="button" id="button" value="Reset" />
+          </p>
+          <p>&nbsp;</p>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+  <script src="./js/btn.js"></script>
+</body>
+
+</html>
